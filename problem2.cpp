@@ -4,7 +4,7 @@ int main()
 {
     int a;
     int b;
-    int temp;
+    int dump;
     cout<<"Enter first number:"<<endl;
     cin>>a;
     cout<<"Enter second number:"<<endl;
@@ -14,9 +14,9 @@ int main()
     cout<<"First number is "<<a<<endl;
     cout<<"Second number is "<<b<<endl;
     
-    temp = a;
+    dump = a;
     a = b;
-    b = temp;
+    b = dump;
 
     cout<<"--------------------After Swap--------------------"<<endl;
     cout<<"first number now is "<<a<<endl;
