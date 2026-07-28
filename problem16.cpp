@@ -23,11 +23,17 @@ int main()
 
     notes10 = amount / 10;
 
+
     cout << "500 rupee notes: " << notes500 << endl;
     cout << "200 rupee notes: " << notes200 << endl;
     cout << "100 rupee notes: " << notes100 << endl;
     cout << "50 rupee notes: " << notes50 << endl;
     cout << "10 rupee notes: " << notes10 << endl;
+
+    
+    if(amount>0){
+        cout<<"Remaining change is:"<<amount;
+    }
 
     return 0;
 }
