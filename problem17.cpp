@@ -11,9 +11,9 @@ int main()
     digit1 = number % 10;         // last digit
     digit2 = (number / 10) % 10;  // middle digit
     digit3 = number / 100;       // first digit
-reverse = (digit1*100) + (digit2*10) + (digit3);
+    reverse = (digit1*100) + (digit2*10) + (digit3);
 
-    cout << "Reverse numver is: " << reverse << endl;
+    cout << "Reverse number is: " << reverse << endl;
 
     return 0;
 }
